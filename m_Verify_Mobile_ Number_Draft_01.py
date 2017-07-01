@@ -1,3 +1,12 @@
+# 'Hello' ... from [S.O.F.T]lab
+# Python 3.6.1
+
+# Verify a Mobile Number_ Input From User _ Draft_01
+# Check , if it's a mobile number.
+# Check, the mobile company in Bangladesh
+# If it's a mobile number & company, then get the number of checking Account Balance. 
+
+
 ask_mobile_number = input('Enter your Mobile number : ')
 mob = int(ask_mobile_number)
 print()
