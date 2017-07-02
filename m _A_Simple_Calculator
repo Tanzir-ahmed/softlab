@@ -18,7 +18,7 @@ def mul (x,y):
 def div (x,y):
   return x/y  
 
-ask = input('''Waht do you wish:
+ask = input('''What do you want to do :
 
   Summation       [1]
   Deduction       [2]
