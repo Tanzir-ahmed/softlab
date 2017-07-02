@@ -6,7 +6,7 @@
 
 # A Simple Calculator of asking users Two values to do basic Math.
 
-def sum (x,y):
+def summ(x,y):
   return x+y
 
 def dec (x,y):
@@ -16,7 +16,7 @@ def mul (x,y):
   return x*y
   
 def div (x,y):
-  return x/y 
+  return x/y  
 
 ask = input('''What do you want to do :
 
@@ -35,7 +35,7 @@ if ask =='1' or ask=='2' or ask=='3' or ask=='4':
   
   
   if ask =='1':
-    print('(x+y) =', sum( x,y))
+    print('(x+y) =', summ( x, y))
     
   elif ask =='2':
     print('(x-y) =', dec( x,y))
@@ -53,4 +53,6 @@ else:
     print ('''
     Enter a correspond number [1/2/3/4]
     Please, RUN again!''')
+
+
 
