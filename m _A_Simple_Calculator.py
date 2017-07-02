@@ -6,18 +6,6 @@
 
 # A Simple Calculator of asking users Two values to do basic Math.
 
-def sum (x,y):
-  return x+y
-
-def dec (x,y):
-  return x-y
-  
-def mul (x,y):
-  return x*y
-  
-def div (x,y):
-  return x/y  
-
 ask = input('''What do you want to do :
 
   Summation       [1]
